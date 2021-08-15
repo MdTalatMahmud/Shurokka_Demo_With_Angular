@@ -1,0 +1,27 @@
+<div class="container">
+<mat-vertical-stepper>
+  <mat-step label="Name" completed=true>
+    <p>this</p>
+      <input type="text" class="form-control, col-xs-4" placeholder="Full Name" style="margin-bottom: 10px; ">
+    <div>
+      <button class="btn btn-light" mat-button matStepperNext>Next</button>
+    </div>
+  </mat-step>
+  <mat-step label="NID Number" completed=false>
+    <input type="text" class="form-control, col-xs-4" placeholder="NID" style="margin-bottom: 10px; ">
+    <div>
+      <button class="btn btn-light" mat-button matStepperPrevious>Back</button>
+      <button class="btn btn-light" mat-button matStepperNext>Next</button>
+    </div>
+  </mat-step>
+  <mat-step label="Date of Birth" completed=false>
+    <div>
+
+    </div>
+    <div>
+      <button class="btn btn-light" mat-button matStepperPrevious>Back</button>
+      <button class="btn btn-light" mat-button>Submit</button>
+    </div>
+  </mat-step>
+</mat-vertical-stepper>
+</div>

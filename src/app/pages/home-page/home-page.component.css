@@ -1,0 +1,15 @@
+.example-card {
+  max-width: 400px;
+}
+
+/*.example-header-image {*/
+/*  background-image: url('https://cdnuploads.aa.com.tr/uploads/Contents/2020/08/19/thumbs_b_c_e186fa8d5c168e8f346b2e33c2115dea.jpg?v=222352');*/
+/*  background-size: cover;*/
+/*}*/
+
+.home-page-body{
+  background-image: url("https://surokkha.gov.bd/static/media/banner-bg.7358efba.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 100%;
+}
