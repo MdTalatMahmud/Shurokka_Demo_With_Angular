@@ -5,6 +5,7 @@ import {RegistrationPageComponent} from "./pages/registration-page/registration-
 import {FaqComponent} from "./pages/faq/faq.component";
 import {StatusPageComponent} from "./pages/status-page/status-page.component";
 import {VaccineCardPageComponent} from "./pages/vaccine-card-page/vaccine-card-page.component";
+import {CertificateComponent} from "./pages/certificate/certificate.component";
 
 const routes: Routes = [
   {
@@ -16,6 +17,7 @@ const routes: Routes = [
       {path:'faq', component:FaqComponent},
       {path:'status', component:StatusPageComponent},
       {path:'vaccine-card', component:VaccineCardPageComponent},
+      {path:'certificate', component:CertificateComponent},
     ]
   }
 ];

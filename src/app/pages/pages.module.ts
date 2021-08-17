@@ -15,6 +15,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from "@angular/material/icon";
 import {MatInputModule} from "@angular/material/input";
 import { VaccineCardPageComponent } from './vaccine-card-page/vaccine-card-page.component';
+import { CertificateComponent } from './certificate/certificate.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { VaccineCardPageComponent } from './vaccine-card-page/vaccine-card-page.
     RegistrationPageComponent,
     StatusPageComponent,
     FaqComponent,
-    VaccineCardPageComponent
+    VaccineCardPageComponent,
+    CertificateComponent
   ],
   imports: [
     CommonModule,
