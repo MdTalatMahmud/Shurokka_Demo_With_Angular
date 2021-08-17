@@ -14,13 +14,15 @@ import {MatExpansionModule} from "@angular/material/expansion";
 import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from "@angular/material/icon";
 import {MatInputModule} from "@angular/material/input";
+import { VaccineCardPageComponent } from './vaccine-card-page/vaccine-card-page.component';
 
 @NgModule({
   declarations: [
     HomePageComponent,
     RegistrationPageComponent,
     StatusPageComponent,
-    FaqComponent
+    FaqComponent,
+    VaccineCardPageComponent
   ],
   imports: [
     CommonModule,

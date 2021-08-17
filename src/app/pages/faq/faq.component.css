@@ -8,3 +8,9 @@
   width: 100%;
   text-align: center;
 }
+
+#under_head{
+  background-color: #dde7f8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
