@@ -1,5 +1,21 @@
-.foot{
-  background-color: coral;
+.container-fluid{
+  background-color: rgb(242, 109, 62);
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+p{
+  font-size: medium;
+  color: white;
+}
+
+@media (min-width: 1000px) {
+  .surokkha_logo{
+    margin-left: 30%;
+  }
+}
+
+a{
+  color: white;
+  text-decoration: none;
 }

@@ -18,3 +18,41 @@
 a{
   text-decoration: none
 }
+
+@media (min-width: 500px) {
+  #vaccine_reg_mat_card{
+    margin-bottom: 90px;
+    margin-top: 35px;
+  }
+  #vaccine_reg_mat_card_image{
+    text-align: center;
+  }
+  #vaccine_reg_div{
+    margin-top: 3%;
+    margin-left: 12%;
+  }
+  .check_status_column{
+    margin-left: -50px;
+  }
+
+  #during_reg_image{
+    margin-bottom: 38px;
+  }
+
+}
+
+@media (max-width: 479px) {
+  #vaccine_reg_div{
+    margin-top: 5%;
+  }
+
+  #vaccine_registration_column{
+    margin-bottom: 8px;
+  }
+}
+
+.check_status_column{
+  margin-bottom: 8px;
+}
+
+
