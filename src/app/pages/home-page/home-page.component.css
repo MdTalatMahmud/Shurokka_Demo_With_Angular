@@ -68,25 +68,34 @@ a{
 
   #process_of_vaccination{
     margin-top: 150%;
+    /*margin-top: 500px;*/
   }
 
 }
 /*for mobile screen end*/
 
 /*for tab screen*/
-@media (max-width: 960px) {
+@media (max-width: 960px) { /*before max-width: 960px*/
   #vaccine_reg_div{
     margin-top: 5%;
   }
 
   #vaccine_registration_column{
     margin: 0 auto;
+    margin-top: 20px;
   }
 
   #check_status_second_column{
     margin: 0 auto;
     margin-top: 2%;
   }
+
+  /*#process_of_vaccination_mat_card{*/
+  /*  margin-top: -300px;*/
+  /*}*/
+  /*#process_of_vaccination{*/
+  /*  margin-top: -300px;*/
+  /*}*/
 }
 /*for tab screen end*/
 
