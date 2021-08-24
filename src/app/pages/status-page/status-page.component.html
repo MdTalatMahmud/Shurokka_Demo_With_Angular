@@ -2,7 +2,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-6" style="text-align: center;"><h2 style="font-weight: bold;">Check Registration Status</h2></div>
+      <div class="col-md-6" style="text-align: center;"><h2 style="font-weight: bold;">{{'STATUS.Check_Registration_Status' | translate}}</h2></div>
       <div class="col-md-6" style="text-align: center;">
         <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
           <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
@@ -15,13 +15,13 @@
 </div>
 <div class="container" style="margin-bottom: 30px;">
 
-  <p style="margin-top: 20px;font-size: 17px;">Provide your National Identity Card number and date of birth (according to the National Identity Card) in the form below and click on the "Verify" button. An OTP code will be sent via SMS to the mobile number provided at the time of registration. Then, you can see Covid-19 vaccine registration status.</p>
+  <p style="margin-top: 20px;font-size: 17px;">{{'STATUS.Status_Description' | translate}}</p>
 
   <div class="row">
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12" id="national_id_card" style="margin-bottom: 5px;">
         <div class="form-control">
-          <p>National Identity Card Number:</p>
+          <p>{{'STATUS.NID' | translate}}</p>
           <input type="number" class="form-control"  placeholder="NID Number">
         </div>
       </div>
@@ -29,7 +29,7 @@
 
       <div class="col-lg-6 col-md-12 col-sm-12" id="date_of_birth">
         <div class="form-control">
-          <p>Date of birth (according to national identity card):</p>
+          <p>{{'STATUS.DOB' | translate}}</p>
           <div class="row">
             <!--          date-->
             <select class="col-lg-2 col-md-2 col-sm-2 form-select" style="margin-left: 5px; margin-right: 5px; width: 100px;">
