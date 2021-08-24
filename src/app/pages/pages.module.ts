@@ -19,6 +19,7 @@ import { CertificateComponent } from './certificate/certificate.component';
 import { VerifyCertificatePageComponent } from './verify-certificate-page/verify-certificate-page.component';
 import { ManualPageComponent } from './manual-page/manual-page.component';
 import { RegistrationPassportPageComponent } from './registration-passport-page/registration-passport-page.component';
+import {TranslateModule} from "@ngx-translate/core";
 
 @NgModule({
   declarations: [
@@ -32,19 +33,20 @@ import { RegistrationPassportPageComponent } from './registration-passport-page/
     ManualPageComponent,
     RegistrationPassportPageComponent
   ],
-  imports: [
-    CommonModule,
-    MatCardModule,
-    MatGridListModule,
-    MatStepperModule,
-    MatFormFieldModule,
-    ReactiveFormsModule,
-    MatDatepickerModule,
-    MatExpansionModule,
-    MatDividerModule,
-    MatIconModule,
-    MatInputModule
-  ],
+    imports: [
+        CommonModule,
+        MatCardModule,
+        MatGridListModule,
+        MatStepperModule,
+        MatFormFieldModule,
+        ReactiveFormsModule,
+        MatDatepickerModule,
+        MatExpansionModule,
+        MatDividerModule,
+        MatIconModule,
+        MatInputModule,
+        TranslateModule
+    ],
   exports: [
     MatCardModule,
   ]

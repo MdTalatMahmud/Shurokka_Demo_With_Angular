@@ -9,11 +9,11 @@ p{
   color: white;
 }
 
-@media (min-width: 1000px) {
-  .surokkha_logo{
-    margin-left: 30%;
-  }
-}
+/*@media (min-width: 1000px) {*/
+/*  #affiliates{*/
+/*    white-space: pre;*/
+/*  }*/
+/*}*/
 
 a{
   color: white;
