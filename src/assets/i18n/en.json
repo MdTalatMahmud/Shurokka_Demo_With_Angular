@@ -39,6 +39,14 @@
     "Mujib": "Mujib 100 Portal",
     "Mujib_Android_App": "Mujib 100 Android App",
     "Mujib_IOS_App": "Mujib 100 iOS App"
+  },
 
+  "REGISTRATION": {
+    "Vaccine_Registration": "Vaccine Registration",
+    "Registration_Description": "Complete the registration by verifying your national identity card and mobile number in the form below. The place and date of delivery of the vaccine will be informed in due course through SMS message on the mobile phone.",
+    "Identity_Verification": "Identity verification",
+    "Select_Type": "Select Type",
+    "NID": "National Identity Card Number:",
+    "DOB": "Date of birth (according to national identity card):"
   }
 }
