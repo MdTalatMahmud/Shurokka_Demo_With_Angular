@@ -48,5 +48,15 @@
     "Select_Type": "Select Type",
     "NID": "National Identity Card Number:",
     "DOB": "Date of birth (according to national identity card):"
+  },
+
+  "REGISTRATION_PASSPORT": {
+    "Registration_Passport": "Registration (Passport)",
+    "Registration_Passport_Description": "Registration (Passport)",
+    "Identity_Verification": "Identity verification:",
+    "Select_Type": "Select Type",
+    "DOB": "Date of birth (according to national identity card):",
+    "Passport_Number": "Passport Number:",
+    "Select_Country": "Select Country"
   }
 }
