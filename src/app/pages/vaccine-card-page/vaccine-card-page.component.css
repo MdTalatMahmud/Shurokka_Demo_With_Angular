@@ -7,3 +7,10 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+/*for mobile screen*/
+@media (max-width: 480px) {
+  #national_id_card{
+    margin-bottom: 5px;
+  }
+}

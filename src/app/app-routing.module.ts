@@ -6,6 +6,9 @@ import {FaqComponent} from "./pages/faq/faq.component";
 import {StatusPageComponent} from "./pages/status-page/status-page.component";
 import {VaccineCardPageComponent} from "./pages/vaccine-card-page/vaccine-card-page.component";
 import {CertificateComponent} from "./pages/certificate/certificate.component";
+import {VerifyCertificatePageComponent} from "./pages/verify-certificate-page/verify-certificate-page.component";
+import {ManualPageComponent} from "./pages/manual-page/manual-page.component";
+import {RegistrationPassportPageComponent} from "./pages/registration-passport-page/registration-passport-page.component";
 
 const routes: Routes = [
   {
@@ -18,6 +21,9 @@ const routes: Routes = [
       {path:'status', component:StatusPageComponent},
       {path:'vaccine-card', component:VaccineCardPageComponent},
       {path:'certificate', component:CertificateComponent},
+      {path:'verify-certificate', component:VerifyCertificatePageComponent},
+      {path:'manual', component:ManualPageComponent},
+      {path:'foreigner-enroll', component:RegistrationPassportPageComponent},
     ]
   }
 ];

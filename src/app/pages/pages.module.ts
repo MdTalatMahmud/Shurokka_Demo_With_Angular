@@ -16,6 +16,10 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatInputModule} from "@angular/material/input";
 import { VaccineCardPageComponent } from './vaccine-card-page/vaccine-card-page.component';
 import { CertificateComponent } from './certificate/certificate.component';
+import { VerifyCertificatePageComponent } from './verify-certificate-page/verify-certificate-page.component';
+import { ManualPageComponent } from './manual-page/manual-page.component';
+import { RegistrationPassportPageComponent } from './registration-passport-page/registration-passport-page.component';
+import {TranslateModule} from "@ngx-translate/core";
 
 @NgModule({
   declarations: [
@@ -24,21 +28,25 @@ import { CertificateComponent } from './certificate/certificate.component';
     StatusPageComponent,
     FaqComponent,
     VaccineCardPageComponent,
-    CertificateComponent
+    CertificateComponent,
+    VerifyCertificatePageComponent,
+    ManualPageComponent,
+    RegistrationPassportPageComponent
   ],
-  imports: [
-    CommonModule,
-    MatCardModule,
-    MatGridListModule,
-    MatStepperModule,
-    MatFormFieldModule,
-    ReactiveFormsModule,
-    MatDatepickerModule,
-    MatExpansionModule,
-    MatDividerModule,
-    MatIconModule,
-    MatInputModule
-  ],
+    imports: [
+        CommonModule,
+        MatCardModule,
+        MatGridListModule,
+        MatStepperModule,
+        MatFormFieldModule,
+        ReactiveFormsModule,
+        MatDatepickerModule,
+        MatExpansionModule,
+        MatDividerModule,
+        MatIconModule,
+        MatInputModule,
+        TranslateModule
+    ],
   exports: [
     MatCardModule,
   ]

@@ -1,5 +1,4 @@
 .example-card {
-  max-width: 400px;
   text-decoration: none;
 }
 
@@ -17,88 +16,16 @@
   font-weight: bold;
   color: rgb(9,39,83);
 }
-/*.example-header-image {*/
-/*  background-image: url('https://cdnuploads.aa.com.tr/uploads/Contents/2020/08/19/thumbs_b_c_e186fa8d5c168e8f346b2e33c2115dea.jpg?v=222352');*/
-/*  background-size: cover;*/
-/*}*/
 
 .home-page-body{
   background-image: url("https://surokkha.gov.bd/static/media/banner-bg.7358efba.jpg");
   background-repeat: no-repeat;
   background-position: left top;
-  height: 100%;
 }
 
 a{
   text-decoration: none
 }
-
-/*for laptop screen*/
-@media (min-width: 1025px) {
-  #vaccine_reg_mat_card{
-    margin-bottom: 90px;
-    margin-top: 35px;
-  }
-  #vaccine_reg_mat_card_image{
-    text-align: center;
-  }
-  #vaccine_reg_div{
-    margin-top: 3%;
-    margin-left: 12%;
-  }
-  .check_status_column{
-    margin-left: -50px;
-  }
-
-  #during_reg_image{
-    margin-bottom: 38px;
-  }
-
-}
-
-/*for mobile screen*/
-@media (max-width: 480px) {
-  /*#vaccine_reg_div{*/
-  /*  margin-top: 5%;*/
-  /*}*/
-
-  #vaccine_registration_column{
-    margin-bottom: 8px;
-  }
-
-  #process_of_vaccination{
-    margin-top: 150%;
-  }
-}
-/*for mobile screen end*/
-
-/*for tab screen*/
-@media (max-width: 960px) {
-  #vaccine_reg_div{
-    margin-top: 5%;
-  }
-
-  #vaccine_registration_column{
-    margin: 0 auto;
-  }
-
-  #check_status_second_column{
-    margin: 0 auto;
-    margin-top: 2%;
-  }
-}
-/*for tab screen end*/
-
-/*tab screen 2*/
-@media (max-width: 1024px) {
-  #vaccine_reg_div{
-    margin-top: 5%;
-  }
-  #vaccine_reg_mat_card{
-
-  }
-}
-/*tab screen 2 end*/
 
 .check_status_column{
   margin-bottom: 8px;
@@ -109,8 +36,39 @@ a{
   margin-bottom: 30px;
 }
 
-/*#download_app_part{*/
-/*  margin-top: 30px;*/
-/*}*/
+#contact_row{
+  margin-bottom: 30px;
+}
+
+#vaccine_registration_column:hover{
+  background-color: rgb(218, 237, 255);
+  transition: 0.5s;
+}
+
+#check_status:hover{
+  background-color: rgb(223, 255, 218);
+  transition: 0.5s;
+}
+
+#vaccine_card:hover{
+  background-color: rgb(254, 255, 218);
+  transition: 0.5s;
+}
+
+#certificate:hover{
+  background-color: rgb(218, 255, 242);
+  transition: 0.5s;
+}
+
+#faq:hover{
+  background-color: rgb(218, 253, 255);
+  transition: 0.5s;
+}
+
+@media (min-width: 1024px) {
+  #vaccine_reg_mat_card_image{
+    margin-bottom: 160px;
+  }
+}
 
 

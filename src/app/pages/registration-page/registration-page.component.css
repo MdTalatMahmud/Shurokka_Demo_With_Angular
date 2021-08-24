@@ -7,3 +7,15 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+#national_id_card{
+  margin-bottom: 5px;
+}
+
+#passport_input{
+  margin-bottom: 5px;
+}
+
+#select_country{
+  margin-bottom: 5px;
+}

@@ -14,46 +14,240 @@
 
   </div>
 </div>
+
 <div class="container" style="margin-bottom: 30px;">
+
+  <p style="margin-top: 20px; font-size: 17px;">Complete the registration by verifying your passport number and mobile number in the form below. The place and date of delivery of the vaccine will be informed in due course through SMS message on the mobile phone.</p>
 
   <h2>Identity verification</h2>
 
-  <mat-vertical-stepper>
-  <mat-step label="Name" completed=true>
-    <div class="form-control,col-lg-3">
-      <div class="row">
-        <div class="col-lg-3"><input type="text" class="form-control" placeholder="Full Name" style="margin-bottom: 10px; "></div>
+  <div class="row">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12" id="national_id_card">
+        <div class="form-control" style="width: auto;">
+          <p>Select Type</p>
+          <select class="col-lg-2 col-md-2 col-sm-2 form-select" style="margin-left: 5px; margin-right: 5px; width: auto;">
+            <option selected>-- Select --</option>
+            <option value="Foreign National">Citizen Registration (25 & above)</option>
+            <option value="Bangladeshi Workers">Civilian Aircraft</option>
+            <option value="Bangladeshi Students">Government Employees</option>
+            <option value="Bangladeshi Students">Others</option>
+          </select>
+        </div>
       </div>
-    </div>
-    <div>
-      <button class="btn btn-light" mat-button matStepperNext>Next</button>
-    </div>
-  </mat-step>
-  <mat-step label="NID Number" completed=false>
-    <div class="form-control,col-lg-3">
-      <div class="row">
-        <div class="col-lg-3"><input type="text" class="form-control" placeholder="NID" style="margin-bottom: 10px; "></div>
-      </div>
+
+
+
     </div>
 
-    <div>
-      <button class="btn btn-light" mat-button matStepperPrevious>Back</button>
-      <button class="btn btn-light" mat-button matStepperNext>Next</button>
-    </div>
-  </mat-step>
-  <mat-step label="Date of Birth" completed=false>
-    <div class="form-control">
-      <div class="row">
-        <div class="col-lg-3"><input type="number" class="form-control" placeholder="Date" style="margin-bottom: 10px;"></div>
-        <div class="col-lg-3"><input type="number" class="form-control" placeholder="Month" style="margin-bottom: 10px; "></div>
-        <div class="col-lg-3"><input type="number" class="form-control" placeholder="Year" style="margin-bottom: 10px; "></div>
+    <div class="row">
+
+      <div class="col-lg-4 col-md-12 col-sm-12" id="passport_input">
+        <div class="form-control">
+          <p>National Identity Card Number::</p>
+          <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Example: 546 389 7375">
+        </div>
       </div>
+
+      <div class="col-lg-5 col-md-12 col-sm-12" id="date_of_birth">
+        <div class="form-control">
+          <p>Date of birth (according to national identity card):</p>
+          <div class="row">
+            <!--          date-->
+            <select class="col-lg-2 col-md-2 col-sm-1 form-select" style="margin-left: 5px; margin-right: 5px; width: 80px;">
+              <option selected>Day</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <!--          month-->
+            <select class="col-lg-2 col-md-2 col-sm-1 form-select" style="margin-right: 5px; width: 120px">
+              <option selected>Month</option>
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+            <!--          year-->
+            <select class="col-lg-2 col-md-2 col-sm-1 form-select" style="width: 100px;">
+              <option selected>Year</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2001">2000</option>
+              <option value="1999">1999</option>
+              <option value="1998">1998</option>
+              <option value="1997">1997</option>
+              <option value="1996">1996</option>
+              <option value="1995">1995</option>
+              <option value="1994">1994</option>
+              <option value="1993">1993</option>
+              <option value="1992">1992</option>
+              <option value="1991">1991</option>
+              <option value="1990">1990</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
     </div>
 
-    <div>
-      <button class="btn btn-light" mat-button matStepperPrevious>Back</button>
-      <button class="btn btn-light" mat-button>Submit</button>
+
+
+    <div class="container" style="margin-top: 10px;">
+      <button type="submit" class="btn btn-success col-lg-2 col-md-2 col-sm-2">Verify</button>
     </div>
-  </mat-step>
-</mat-vertical-stepper>
+  </div>
 </div>
+
+<!--<div class="container" style="margin-bottom: 30px;">-->
+
+<!--  <p style="margin-top: 20px; font-size: 17px;">Complete the registration by verifying your national identity card and mobile number in the form below. The place and date of delivery of the vaccine will be informed in due course through SMS message on the mobile phone.</p>-->
+<!--  <h2>Identity verification</h2>-->
+
+<!--  <mat-vertical-stepper>-->
+<!--    <mat-step label="Select Type" completed=true>-->
+<!--      <div class="form-control,col-lg-3">-->
+<!--        <div class="row">-->
+<!--          <select class="col-lg-2 col-md-2 col-sm-2 form-select" style="width: auto; margin-top: 5px; margin-bottom: 5px;">-->
+<!--            <option selected>&#45;&#45; Select &#45;&#45;</option>-->
+<!--            <option value="Foreign National">Foreign National</option>-->
+<!--            <option value="Bangladeshi Workers">Bangladeshi Workers</option>-->
+<!--            <option value="Bangladeshi Students">Bangladeshi Students</option>-->
+<!--          </select>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        <button class="btn btn-light" mat-button matStepperNext>Next</button>-->
+<!--      </div>-->
+<!--    </mat-step>-->
+
+<!--    <mat-step label="National Identity Card Number:" completed=false>-->
+<!--      <div class="form-control,col-lg-3">-->
+<!--        <div class="row">-->
+<!--          <div class="col-lg-3"><input type="text" class="form-control" placeholder="Example: 123 654 6464" style="margin-bottom: 10px; margin-top: 10px;"></div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        <button class="btn btn-light" mat-button matStepperNext>Next</button>-->
+<!--      </div>-->
+<!--    </mat-step>-->
+
+<!--    <mat-step label="Date of Birth" completed=false>-->
+<!--      <div class="col-lg-5 col-md-12 col-sm-12" style="margin-bottom: 5px;">-->
+<!--        <div class="form-control">-->
+
+<!--            &lt;!&ndash;          date&ndash;&gt;-->
+<!--            <select class="col-lg-2 col-md-2 col-sm-12 form-select" style="margin-left: 5px; margin-right: 5px; width: 80px;">-->
+<!--              <option selected>Day</option>-->
+<!--              <option value="1">1</option>-->
+<!--              <option value="2">2</option>-->
+<!--              <option value="3">3</option>-->
+<!--              <option value="4">4</option>-->
+<!--              <option value="5">5</option>-->
+<!--              <option value="6">6</option>-->
+<!--              <option value="7">7</option>-->
+<!--              <option value="8">8</option>-->
+<!--              <option value="9">9</option>-->
+<!--              <option value="10">10</option>-->
+<!--              <option value="11">11</option>-->
+<!--              <option value="12">12</option>-->
+<!--              <option value="13">13</option>-->
+<!--              <option value="14">14</option>-->
+<!--              <option value="15">15</option>-->
+<!--              <option value="16">16</option>-->
+<!--              <option value="17">17</option>-->
+<!--              <option value="18">18</option>-->
+<!--              <option value="19">19</option>-->
+<!--              <option value="21">21</option>-->
+<!--              <option value="22">22</option>-->
+<!--              <option value="23">23</option>-->
+<!--              <option value="24">24</option>-->
+<!--              <option value="25">25</option>-->
+<!--              <option value="26">26</option>-->
+<!--              <option value="27">27</option>-->
+<!--              <option value="28">28</option>-->
+<!--              <option value="29">29</option>-->
+<!--              <option value="30">30</option>-->
+<!--              <option value="31">31</option>-->
+<!--            </select>-->
+<!--            &lt;!&ndash;          month&ndash;&gt;-->
+<!--            <select class="col-lg-2 col-md-2 col-sm-12 form-select" style="margin-right: 5px; width: 120px">-->
+<!--              <option selected>Month</option>-->
+<!--              <option value="January">January</option>-->
+<!--              <option value="February">February</option>-->
+<!--              <option value="March">March</option>-->
+<!--              <option value="April">April</option>-->
+<!--              <option value="May">May</option>-->
+<!--              <option value="June">June</option>-->
+<!--              <option value="July">July</option>-->
+<!--              <option value="August">August</option>-->
+<!--              <option value="September">September</option>-->
+<!--              <option value="October">October</option>-->
+<!--              <option value="November">November</option>-->
+<!--              <option value="December">December</option>-->
+<!--            </select>-->
+<!--            &lt;!&ndash;          year&ndash;&gt;-->
+<!--            <select class="col-lg-2 col-md-2 col-sm-12 form-select" style="width: 100px;">-->
+<!--              <option selected>Year</option>-->
+<!--              <option value="2003">2003</option>-->
+<!--              <option value="2002">2002</option>-->
+<!--              <option value="2001">2001</option>-->
+<!--              <option value="2001">2000</option>-->
+<!--              <option value="1999">1999</option>-->
+<!--              <option value="1998">1998</option>-->
+<!--              <option value="1997">1997</option>-->
+<!--              <option value="1996">1996</option>-->
+<!--              <option value="1995">1995</option>-->
+<!--              <option value="1994">1994</option>-->
+<!--              <option value="1993">1993</option>-->
+<!--              <option value="1992">1992</option>-->
+<!--              <option value="1991">1991</option>-->
+<!--              <option value="1990">1990</option>-->
+<!--            </select>-->
+<!--          -->
+<!--      </div>-->
+<!--      </div>-->
+
+<!--      <div>-->
+<!--        <button class="btn btn-light" mat-button matStepperPrevious>Back</button>-->
+<!--        <button class="btn btn-primary" mat-button>Submit</button>-->
+<!--      </div>-->
+<!--    </mat-step>-->
+<!--</mat-vertical-stepper>-->
+<!--</div>-->

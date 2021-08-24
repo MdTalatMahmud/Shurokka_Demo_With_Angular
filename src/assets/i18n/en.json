@@ -1,0 +1,44 @@
+{
+  "HEADER":{
+    "HOME": "Home",
+    "REGISTRATION": "Registration",
+    "REGISTRATION_PASSPORT": "Registration(Passport)",
+    "STATUS": "Status",
+    "CARD": "Card",
+    "CERTIFICATE": "Certificate",
+    "VERIFY_CERTIFICATE": "Verify Certificate",
+    "MANUAL": "Manual",
+    "FAQ": "FAQ"
+  },
+
+  "HOME": {
+    "PROCESS": "The process of receiving the Covid-19 corona vaccine",
+    "During_Registration_You_Need": "During Registration You Need",
+    "VACCINE_REGISTRATION": "VACCINE REGISTRATION",
+    "Check_Status": "Check Status",
+    "Vaccine_Card": "Vaccine Card",
+    "Certificate": "Certificate",
+    "FAQ": "FAQ",
+    "Hotline": "Hotline",
+    "National_Call_Centers_Phone_Number": "333",
+    "National_Call_Centers": "National Call Centers",
+    "Health_Portal_Phone_Number": "16263",
+    "Health_Portal": "Health Portal",
+    "IEDCR_Phone_Number": "10655",
+    "IEDCR": "IEDCR",
+    "Telehealth_Phone_Number": "09666777222",
+    "Telehealth": "Covid-19 Telehealth",
+    "All_Call_Centers": "All Call Centers",
+    "Online_Registration": "Online Registration",
+    "Online_Registration_Description": "First, you have to complete the online registration by verifying your national identity card and correct mobile number through this portal.",
+    "SMS_Notification": "SMS Notification",
+    "SMS_Notification_Description": "After registering online, you will receive a text message on your mobile phone mentioning the date of vaccination and the name of the vaccination center.",
+    "Vaccination": "Vaccination",
+    "Vaccination_Description": "Subject to receiving a text message on the mobile phone, you have to appear in person at the vaccination center on the specified date with the vaccine card, national identity card and signed consent form to receive the Covid-19 vaccine.",
+    "Mujib_Header": "Mujib 100",
+    "Mujib": "Mujib 100 Portal",
+    "Mujib_Android_App": "Mujib 100 Android App",
+    "Mujib_IOS_App": "Mujib 100 iOS App"
+
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "HEADER":{
+    "HOME": "হোম",
+    "REGISTRATION": "নিবন্ধন",
+    "REGISTRATION_PASSPORT": "নিবন্ধন (পাসপোর্ট)",
+    "STATUS": "নিবন্ধন স্ট্যাটাস",
+    "CARD": "টিকা কার্ড",
+    "CERTIFICATE": "টিকা সনদ",
+    "VERIFY_CERTIFICATE": "টিকা সনদ যাচাই",
+    "MANUAL": "সহায়িকা",
+    "FAQ": "জিজ্ঞাসা"
+  },
+
+  "HOME": {
+    "VACCINE_REGISTRATION": "ভ্যাকসিনের জন্য নিবন্ধন করুন",
+    "During_Registration_You_Need": "নিবন্ধনের সময় প্রয়োজন হবে",
+    "PROCESS": "কোভিড-১৯ করোনা ভ্যাকসিন গ্রহণের প্রক্রিয়া",
+    "Check_Status": "নিবন্ধন স্ট্যাটাস",
+    "Vaccine_Card": "টিকা কার্ড সংগ্রহ",
+    "Certificate": "টিকা সনদ সংগ্রহ",
+    "FAQ": "সচরাচর জিজ্ঞাসা",
+    "Hotline": "হটলাইন",
+    "National_Call_Centers_Phone_Number": "৩৩৩",
+    "National_Call_Centers": "জাতীয় কল সেন্টার",
+    "Health_Portal_Phone_Number": "১৬২৬৩",
+    "Health_Portal": "স্বাস্থ্য বাতায়ন",
+    "IEDCR_Phone_Number": "১০৬৫৫",
+    "IEDCR": "আইইডিসিআর",
+    "Telehealth_Phone_Number": "০৯৬৬৬৭৭৭২২২",
+    "Telehealth": "কোভিড-১৯ টেলিহেলথ",
+    "All_Call_Centers": "সকল কল সেন্টার",
+    "Online_Registration": "অনলাইনে নিবন্ধন",
+    "Online_Registration_Description": "প্রথমে এই পোর্টালের মাধ্যমে জাতীয় পরিচয়পত্র ও সঠিক মোবাইল নম্বর যাচাইপূর্বক অনলাইনে নিবন্ধন সম্পন্ন করবেন।",
+    "SMS_Notification": "SMS নোটিফিকেশন",
+    "SMS_Notification_Description": "অনলাইনে নিবন্ধন পরবর্তী তথ্য যাচাইপূর্বক পর্যায়ক্রমে টিকা প্রদানের তারিখ ও কেন্দ্রের নাম উল্লেখপূর্বক মুঠোফোনে খুদেবার্তা পাবেন।",
+    "Vaccination": "টিকা কেন্দ্রে টিকা গ্রহণ",
+    "Vaccination_Description": "মুঠোফোনে খুদেবার্তা প্রাপ্তি সাপেক্ষে টিকাকার্ড জাতীয় পরিচয়পত্র ও সম্মতিপত্রসহ নির্দিষ্ট তারিখে টিকাদান কেন্দ্রে স্ব-শরীরে উপস্থিত হয়ে কোভিড-১৯ টিকা গ্রহণ করবেন।",
+    "Mujib_Header": "মুজিব ১০০",
+    "Mujib": "মুজিব ১০০ পোর্টাল",
+    "Mujib_Android_App": "মুজিব ১০০ অ্যান্ড্রয়েড অ্যাপ",
+    "Mujib_IOS_App": "মুজিব ১০০ আইওএস অ্যাপ"
+
+  }
+}
