@@ -2,7 +2,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-6" style="text-align: center;"><h2 style="font-weight: bold;">Verify Certificate</h2></div>
+      <div class="col-md-6" style="text-align: center;"><h2 style="font-weight: bold;">{{'VERIFY_CERTIFICATE.Verify_Certificate' | translate}}</h2></div>
       <div class="col-md-6" style="text-align: center;">
         <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-bookmark-star" viewBox="0 0 16 16" style="transform: rotate(-25deg)">
           <path d="M7.84 4.1a.178.178 0 0 1 .32 0l.634 1.285a.178.178 0 0 0 .134.098l1.42.206c.145.021.204.2.098.303L9.42 6.993a.178.178 0 0 0-.051.158l.242 1.414a.178.178 0 0 1-.258.187l-1.27-.668a.178.178 0 0 0-.165 0l-1.27.668a.178.178 0 0 1-.257-.187l.242-1.414a.178.178 0 0 0-.05-.158l-1.03-1.001a.178.178 0 0 1 .098-.303l1.42-.206a.178.178 0 0 0 .134-.098L7.84 4.1z"/>
@@ -15,15 +15,15 @@
 </div>
 <div class="container" style="margin-bottom: 30px; margin-top: 50px;">
 
-  <p style="margin-top: 20px;font-size: 17px; margin-bottom: 70px;">Vaccination Certificate can be verified by clicking on "Verify Vaccination Certificate" button using NID, date of birth and Vaccination Certificate Number.</p>
-  <a href="#" style="color: red; font-size: large;">Download your Vaccine Card (Passport holder Bangladeshi and Foreigners)</a>
-  <p style="margin-top: 20px;font-size: 17px; margin-bottom: 100px;">Enter your National Identity Card number and date of birth (according to the National Identity Card) in the form below and click on the "Verify" button. An OTP code will be sent via SMS to the mobile number provided at the time of registration. Then, you can download the Covid-19 Vaccine Certificate.</p>
+  <p style="margin-top: 20px;font-size: 17px; margin-bottom: 70px;">{{'VERIFY_CERTIFICATE.Verify_Certificate_Description' | translate}}</p>
+  <a href="#" style="color: red; font-size: large;">{{'VERIFY_CERTIFICATE.Verify_Your_Vaccine_Certificate' | translate}}</a>
+  <p style="margin-top: 20px;font-size: 17px; margin-bottom: 100px;"></p>
 
   <div class="row">
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12" id="national_id_card">
         <div class="form-control">
-          <p>National Identity Card Number:</p>
+          <p>{{'VERIFY_CERTIFICATE.NID' | translate}}</p>
           <input type="number" class="form-control"  placeholder="NID Number">
         </div>
       </div>
@@ -31,7 +31,7 @@
 
       <div class="col-lg-6 col-md-12 col-sm-12" id="date_of_birth">
         <div class="form-control">
-          <p>Date of birth (according to national identity card):</p>
+          <p>{{'VERIFY_CERTIFICATE.DOB' | translate}}</p>
           <div class="row">
             <!--          date-->
             <select class="col-lg-2 col-md-2 col-sm-2 form-select" style="margin-left: 5px; margin-right: 5px; width: 100px;">
@@ -110,7 +110,7 @@
 
     <div class="col-lg-4 col-md-12 col-sm-12" style="margin-top: 5px;">
       <div class="form-control">
-        <p>Vaccination Certificate Number:</p>
+        <p>{{'VERIFY_CERTIFICATE.Vaccination_Certificate_Number' | translate}}</p>
         <input type="number" class="form-control"  placeholder="Example: 344 537 2765">
       </div>
     </div>
